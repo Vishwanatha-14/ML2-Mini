@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (large binaries - keep tracked for this student project? ignore retrained copies)
+# Uncomment next line if you don't want to commit .pkl files:
+# models/*.pkl
+
+# Results are generated - keep them, but ignore temp files
+results/*.png
+
+# Data - Kaggle dataset is not committed by default (too large / licensed).
+# Comment these out if you want to commit small CSVs.
+# data/train.csv
+# data/test.csv
+
+# OS
+.DS_Store
+Thumbs.db
